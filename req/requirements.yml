@@ -1,5 +1,5 @@
 ---
-- src: http://philippe.libat.free.fr/simple.tar.gz
+- src: https://lc.cx/oJJs
   name: simple
   version: 1.0
 - src: ptdorf.hello
