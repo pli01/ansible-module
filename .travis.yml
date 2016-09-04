@@ -29,3 +29,4 @@ install:
 script:
   - env
   - docker ps
+  - ansible-galaxy --help
