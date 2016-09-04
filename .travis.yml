@@ -27,7 +27,7 @@ install:
   - ansible --version
   - ansible-galaxy --help
   - mkdir tmp
-  - ANSIBLE_CONFIG=ansible.cfg ansible-galaxy install -vvv -r req/requirements.yml
+  - ANSIBLE_CONFIG=ansible.cfg ansible-galaxy install -vvvv -r req/requirements.yml
   - ls -alsrt tmp/
 
 script:
