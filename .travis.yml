@@ -28,6 +28,7 @@ install:
   - ansible-galaxy --help
   - ls -alsrt
   - bash -x scripts/get_drive.sh
+  - file /tmp/simple.tar.gz
   - ls -alsrt /tmp/
   - ansible-galaxy install -vv -r req/requirements.yml
 
