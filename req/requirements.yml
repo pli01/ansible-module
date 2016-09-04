@@ -1,3 +1,3 @@
 ---
-- src: file://tmp/simple.tar.gz
+- src: file:///tmp/simple.tar.gz
   name: simple
