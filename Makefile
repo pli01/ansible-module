@@ -1,4 +1,2 @@
 tar:
-	( cd roles && find simple -type f -exec tar -zcvf simple.tar.gz {} \;)
-
-
+	( cd roles && tar -zcvf simple.tar.gz simple )

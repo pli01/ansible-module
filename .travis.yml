@@ -26,7 +26,9 @@ install:
   - sudo rm /usr/bin/python && sudo ln -s /usr/bin/python2.7 /usr/bin/python
   - ansible --version
   - ansible-galaxy --help
-  - ansible-galaxy install -vv -r req/requirements.yml
+  - mkdir tmp
+  - ANSIBLE_CONFIG=ansible.cfg ansible-galaxy install -vv -r req/requirements.yml
+  - ls tmp
 
 script:
   - ls -alsrt
