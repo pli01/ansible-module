@@ -27,6 +27,7 @@ install:
   - ansible --version
   - ansible-galaxy --help
   - bash scripts/get_drive.sh
+  - ls -alsrt /tmp/
   - ansible-galaxy install -vv -r req/requirements.yml
 
 script:
