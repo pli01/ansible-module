@@ -26,10 +26,6 @@ install:
   - sudo rm /usr/bin/python && sudo ln -s /usr/bin/python2.7 /usr/bin/python
   - ansible --version
   - ansible-galaxy --help
-  - ls -alsrt
-  - bash -x scripts/get_drive.sh
-  - file /tmp/simple.tar.gz
-  - ls -alsrt /tmp/
   - ansible-galaxy install -vv -r req/requirements.yml
 
 script:
